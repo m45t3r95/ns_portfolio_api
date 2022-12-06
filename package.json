@@ -1,18 +1,25 @@
 {
-  "name": "ns-portfolio-api",
-  "version": "0.0.0",
-  "private": true,
+  "name": "ns_portfolio_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m45t3r95/ns_portfolio_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m45t3r95/ns_portfolio_api/issues"
+  },
+  "homepage": "https://github.com/m45t3r95/ns_portfolio_api#readme",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
     "dotenv": "^16.0.3",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1",
+    "express": "^4.18.2",
     "mysql2": "^2.3.3"
   }
 }
